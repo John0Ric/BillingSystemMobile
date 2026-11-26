@@ -11,6 +11,7 @@ namespace BillingSystemMobile
 
         protected override Window CreateWindow(IActivationState? activationState)
         {
+            // AppShell shows LoginPage first
             return new Window(new AppShell());
         }
     }
